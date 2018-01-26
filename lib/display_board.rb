@@ -9,7 +9,6 @@ def display_board
   puts "-----------"
   2.times {print "   |"}
   puts "   "
-  puts "-----------"
 end
 
 display_board
