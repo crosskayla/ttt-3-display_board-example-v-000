@@ -11,4 +11,13 @@ def display_board
   puts "   "
 end
 
-display_board
+def display_board_test
+  2.times{
+    2.times {print "   |"}
+    puts "   "
+    puts "-----------"}
+  2.times {print "   |"}
+  puts "   "
+end
+
+display_board_test
